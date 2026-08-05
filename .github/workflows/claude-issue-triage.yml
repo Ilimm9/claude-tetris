@@ -105,7 +105,14 @@ jobs:
 
             ## 5. Formato del comentario
 
-            Escribe en español, con este formato:
+            Escribe en español y en Markdown válido de GitHub (GFM), de modo que GitHub
+            lo renderice correctamente: encabezados con `##`, negritas con `**`, listas con
+            `-` o `1.`, código y referencias a archivos entre comillas invertidas
+            (`game.js:120`), bloques de código con vallas ``` indicando el lenguaje, y
+            líneas en blanco entre bloques para que los párrafos y listas no se peguen.
+            No uses HTML salvo el comentario marcador inicial, ni escapes el Markdown.
+
+            Usa este formato:
 
               <!-- claude-triage -->
               ## Análisis automático
